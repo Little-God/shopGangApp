@@ -1,0 +1,92 @@
+﻿/*轮播图样式*/
+.width1140{width:1140px;margin:0 auto;padding-bottom: 1px;position:relative;}
+.width1000{width:1000px;margin:0 auto;padding-bottom: 1px;position:relative;}
+.bgGray{background:#f1f1f1;}
+.blue{background:url(../images/web_2_05.png);}
+.banner{width:100%;position:relative;background: #CEFFFE;}
+.bannerList ul>li{position:absolute;}
+.banner .wxBanner.bannerList{height:575px}
+.switchButton.wxSwitchButton span{top:195px}
+.banner .bannerList.syBanner{height:574px;}
+.banner .bannerSpot.syBannerSpot{bottom:70px;}
+.syBanner li ul{position:relative;height: 100%;}
+.syBanner .first{background:url(../images/c1bg_02.png) no-repeat center;background-size: cover;;}
+.syBanner .first.active .b1{-webkit-animation: bounceInLeft 2s 0s 1 linear both;animation: bounceInLeft 2s 0s 1 linear both;}
+.syBanner .first.active .b2{-webkit-animation: bounceInLeft 2s .5s 1 linear both;animation: bounceInLeft 2s .5s 1 linear both;}
+.syBanner .first.active .b3{-webkit-animation: bounceInRight 2s 0s 1 linear both;animation: bounceInRight 2s 0s 1 linear both;}
+.syBanner .two.active .b1{-webkit-animation: bounceInLeft 2s 0s 1 linear both;animation: bounceInLeft 2s 0s 1 linear both;}
+.syBanner .two.active .b2{-webkit-animation: bounceInLeft 2s .5s 1 linear both;animation: bounceInLeft 2s .5s 1 linear both;}
+.syBanner .two.active .b3{-webkit-animation: fadeInRight 1s .5s 1 linear both;animation: fadeInRight 1s .5s 1 linear both;}
+.syBanner .three.active .b1{-webkit-animation: zoomInDown 2s 0s 1 linear both;animation: zoomInDown 2s 0s 1 linear both;}
+.syBanner .three.active .b2{-webkit-animation: zoomInDown 2s .5s 1 linear both;animation: zoomInDown 2s .5s 1 linear both;}
+.syBanner .first .b1{left:158px;top:107px;}
+.syBanner .first .b2{left: -7px;top: 234px;}
+.syBanner .first .b3{right: -79px;top:98px;z-index: 6;}
+.syBanner .first .b3 p{position:absolute;left:323px;bottom: 87px;opacity: .5;font-size: 12px;}
+.syBanner .first .b4{left:0;bottom:0;-webkit-animation: fadeInUp 2s .5s 1 linear both;animation: fadeInUp 2s .5s 1 linear both;}
+.syBanner .two{background:url(../images/C2bg.png) no-repeat center;background-size: cover;;}
+.syBanner .two .b1{left: 177px;top: 110px;}
+.syBanner .two .b2{left: 289px;top: 338px;}
+.syBanner .two .b3{right: -49px;top: 100px;}
+.syBanner .three{background:url(../images/c2_02.png) no-repeat center;background-size: cover;;}
+.syBanner .three .b1{left: 202px;top: 104px;}
+.syBanner .three .b2{left: 165px;top: 327px;}
+.syBanner .four{ background:#2bc44f;}
+.syBanner .four .b1{ left:70px; top:112px;}
+.syBanner .four .b1 img{     width: 80%;}
+.syBanner .four .b2{ left:-28px; bottom:0;}
+.syBanner .four.active .b1{-webkit-animation: zoomIn 2s 0s 1 linear both;animation: zoomIn 2s 0s 1 linear both;}
+.syBanner .four.active .b2{-webkit-animation: zoomInDown 2s .5s 1 linear both;animation: zoomInDown 2s .5s 1 linear both;}
+.switchButton{height:0px;width:1140px;margin:0 auto;position: relative;display:none;}
+.switchButton span{display:inline-block;vertical-align:top;width:60px;height:60px;z-index: 9;position:absolute;top:235px;cursor:pointer;}
+.switchButton span.prov{background:url(../images/prov.png);left:0;}
+.switchButton span.next{background:url(../images/next.png);right:0;}
+.banner .bannerList{height: 350px;overflow: hidden;position:relative;width: 100%;}
+.banner .bannerList> li .bannerCentent{position:relative;}
+.banner .bannerList> li{display:none;text-align:center;color:#fff;font-size:14px;width:100%;height:100%;overflow: hidden;}
+.banner .bannerList> li.active{}
+.banner .bannerSpot{position:absolute;width:100%;bottom:20px;text-align:center;width:150px\9;left: 50%\9;margin-left: -75px\9;}
+.banner .bannerSpot li{display:inline-block;*display:none;width:11px;height:11px;margin-right:8px;border:4px solid #fff;cursor: pointer;border-radius:100%}
+.banner .bannerSpot li.active{background:#fff;}
+.developmentDynamics{/*background:rgba(33, 183, 164, 0.73);*/background:rgba(50, 50, 50, 0.73);background:#000\9;height:50px;position:absolute;bottom:0;left:0;width:100%;}
+.developmentIcon{background:url('../images/shouyin_03.png');color:#fff;text-align:center;width:59px;height:20px;line-height:18px;position: absolute;left: -4px;top:16px;font-size: 12px;padding-right: 5px;}
+.dynamicsNotice{padding:16px 0;}
+.dynamicsNotice .noticeTxt{float:left;width:84%;line-height:20px;margin-left: 54px;}
+.dynamicsNotice .noticeTxt ul{float:left;}
+.dynamicsNotice .noticeTxt li{display:none;padding-top: 10px;margin-top: -10px;position: relative;}
+.dynamicsNotice .noticeTxt li a:nth-child(2){display: inline-block;margin-left:150px}
+.dynamicsNotice .noticeTxt span{float:left;width:65px;height:20px;color:#fff;background:#595b5b;display:inline-block;vertical-align: top;text-align:center;}
+.dynamicsNotice .noticeTxt i{display:inline-block;vertical-align: top;font-size:14px;color:#fff;margin:0 10px;text-align:center;}
+.dynamicsNotice .noticeTxt p{color:#fff;font-size:14px;position:relative;display: inline-block;*display:inline;*zoom:1;vertical-align: top;max-width: 310px;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;}
+.dynamicsNotice .noticeTxt em{position: absolute;right: -32px;top: -2px;width: 34px;height: 20px;text-align: center;display: inline-block;vertical-align: top;color: #fff;background: #fc411d;font-size: 10px;-webkit-transform: scale(0.7);}
+.dynamicsNotice .noticeMor{float:right;width:10%;text-align: right;}
+.dynamicsNotice .noticeMor span.more{margin-top:0;}
+.dynamicsNotice .noticeMor span.more a{color:#fff;}
+.dynamicsNotice .noticeMor span.more i{background: url('http://static.pigcms.com/o2o/statics/images/shouyin/jiantouR.png');background-size: 100%;margin-left: -.2rem;}
+.afterPay{
+    background: url(https://pigmcsdotcom.b0.upaiyun.com/o2o/statics/test/kaquan/images/afterPay/bg.png) center no-repeat;
+}
+.afterPay .o1{
+    top:75px;
+    left: -257px;
+    -webkit-animation: zoomIn 1s ease 1.2s 1 both;
+    animation: zoomIn 1s ease 1.2s 1 both;
+}
+.afterPay .o2{
+    bottom:0px;
+    right:0px;
+    -webkit-animation: bounceInRight 0.6s ease 0.4s 1 both;
+    animation: bounceInRight 0.6s ease 0.4s 1 both;
+}
+.afterPay .o3{
+    top:150px;
+    left: 200px;
+    -webkit-animation: bounceInDown 1s ease 0.6s 1 both;
+    animation: bounceInDown 1s ease 0.6s 1 both;
+}
+.afterPay .o4{
+    top:340px;
+    left: 250px;
+    -webkit-animation: bounceInUp 1s ease 0.6s 1 both;
+    animation: bounceInUp 1s ease 0.6s 1 both;
+}
